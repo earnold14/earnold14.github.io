@@ -201,7 +201,7 @@ nav i {
 
 main {
   /* background: url(../../assets/img/bg.png) repeat;*/
-  color: #A3BBAD;
+  color: #0C2521;
   padding-left: 190px;
 }
 
@@ -222,6 +222,7 @@ dt {
 
 ul.side-nav {
   width: 190px;
+  background-color: #333333 !important;
 }
 
 ul.side-nav li {
@@ -258,7 +259,7 @@ ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
 } */
 
 ul.side-nav.fixed li.logo {
-  background-color: #fafafa;
+  background-color: #333333;
   border-bottom: 1px solid #ddd;
   box-sizing: content-box;
   min-height: 90px;
@@ -566,10 +567,6 @@ small {
 /* .teal {
   background-color: #00695c !important;
 } */
-
-ul.side-nav {
-  background-color: #333333 !important;
-}
 
 
 @media (min-width: 1200px) {
