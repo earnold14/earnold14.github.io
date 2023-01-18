@@ -567,6 +567,11 @@ small {
   background-color: #00695c !important;
 } */
 
+ul.side-nav {
+  background-color: #333333 !important;
+}
+
+
 @media (min-width: 1200px) {
   #experience .container {
     width: 860px;
@@ -691,10 +696,5 @@ small {
   }
   #intro.section {
     background-position-x: 30%;
-  }
-
-  ul.side-nav {
-
-    background-color: #333333 !important;
   }
 }
