@@ -550,7 +550,7 @@ small {
 /* main .teal-text */
 
 .teal-text {
-  color: #C2882B !important;
+  color: #7B3400 !important;
 }
 
 /* .teal-text {
@@ -560,7 +560,7 @@ small {
 /* .teal */
 
 .teal {
-  background-color: #C2882B !important;
+  background-color: #7B3400 !important;
 }
 
 /* .teal {
@@ -691,5 +691,10 @@ small {
   }
   #intro.section {
     background-position-x: 30%;
+  }
+
+  ul.side-nav {
+
+    background-color: #333333;
   }
 }
