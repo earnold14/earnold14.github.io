@@ -140,7 +140,7 @@ body {
 } */
 
 a {
-  color: #004d40;
+  color: #8EAD7C;
 }
 
 /* main blockqoute */
@@ -323,12 +323,12 @@ h3 {
 } */
 
 #intro.section {
-  background: #174333 repeat;
+  background: #6A958C repeat;
   position: relative;
 }
 
 #intro.section .container {
-  color: white;
+  color: #E3DED7;
   font-weight: 200;
   left: 0;
   position: absolute;
@@ -552,7 +552,7 @@ small {
 /* main .teal-text */
 
 .teal-text {
-  color: #7B3400 !important;
+  color: #8EAD7C !important;
 }
 
 /* .teal-text {
@@ -562,7 +562,7 @@ small {
 /* .teal */
 
 .teal {
-  background-color: #7B3400 !important;
+  background-color: #8EAD7C !important;
 }
 
 /* .teal {
