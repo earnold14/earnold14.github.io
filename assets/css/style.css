@@ -11,7 +11,7 @@
   /* background-size: cover;  */
   margin: -31px; 
   margin-left:-7px;
-  border: 6px solid rgba(106, 149, 140, 0.25); 
+  border: 6px solid #224229;
   border-radius: 50% !important;
 }
 
@@ -41,7 +41,8 @@
   width: 50px;
   height: 50px;
   border: 0;
-  color: #FFFFFF;
+  color: #fbf2eb;
+  background-color: #fbf2eb;
   cursor: pointer;
   font-size: 30px;
   line-height: 70px;
@@ -64,7 +65,7 @@
 
 .icon-btn:hover {
   transform: scale(1.10);
-  color: #FFFFFF;
+  color: #fbf2eb;
 }
 
 .linkedin:hover {
@@ -84,9 +85,9 @@
 .readme {
   position: relative;
   padding: 11px 35px;
-  background: #fff;
-  color: #6A958C;
-  border: 2px solid #fff;
+  background: #224229;
+  color: #fbf2eb;
+  border: 2px solid #224229;
   font-weight: 600;
   font-size: 15px;
   letter-spacing: 1px;
@@ -96,16 +97,17 @@
 }
 
 .readme:hover{
-  color: #fff;
-  background-color: #6A958C;
+  color: #224229;
+  border: 2px solid #fbf2eb;
+  background-color: #fbf2eb;
 }
 
 .contactme {
   position: relative;
   padding: 11px 35px;
-  background: #fff;
-  color: #6A958C;
-  border: 2px solid #fff;
+  background: #224229;
+  color: #fbf2eb;
+  border: 2px solid #224229;
   font-weight: 600;
   font-size: 15px;
   letter-spacing: 1px;
@@ -116,8 +118,9 @@
 }
 
 .contactme:hover{
-  color: #fff;
-  background-color: #6A958C;
+  color: #224229;
+  border: 2px solid #fbf2eb;
+  background-color: #fbf2eb;
 }
 /* main body */
 
@@ -136,11 +139,11 @@ body {
 /* main a -- links */
 
 /* a {
-  color: #6A958C;
+  color: #009688;
 } */
 
 a {
-  color: #8EAD7C;
+  color: #004d40;
 }
 
 /* main blockqoute */
@@ -175,7 +178,7 @@ blockquote * {
 /* main nav */
 
 nav {
-  background: white;
+  background: #fbf2eb;
   box-shadow: none;
   height: 0;
 }
@@ -199,10 +202,11 @@ nav i {
   padding-left: 190px;
 } */
 
+@import url(https://fonts.googleapis.com/css?family=Poppins);
 main {
-  /* background: url(../../assets/img/bg.png) repeat;*/
-  color: #2D4443;
+  background-color: #e2e6db;
   padding-left: 190px;
+  font-family: Poppins,sans-serif !important;
 }
 
 dl {
@@ -222,7 +226,7 @@ dt {
 
 ul.side-nav {
   width: 190px;
-  background-color: #8ead7c !important;
+  background-color: #fbf2eb !important;
 }
 
 ul.side-nav li {
@@ -251,7 +255,7 @@ ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
 }
 
 /* ul.side-nav.fixed li.logo {
-  background-color: #fafafa;
+  background-color: #fbf2eb;
   border-bottom: 1px solid #ddd;
   box-sizing: content-box;
   min-height: 90px;
@@ -259,7 +263,7 @@ ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
 } */
 
 ul.side-nav.fixed li.logo {
-  background-color: #8ead7c;
+  background-color: #fbf2eb;
   border-bottom: 1px solid #ddd;
   box-sizing: content-box;
   min-height: 90px;
@@ -272,13 +276,12 @@ ul.side-nav.fixed li.logo a {
 }
 
 ul.table-of-contents li:not(.logo) a.active, ul.table-of-contents li:not(.logo) a:hover {
-  background-color: #fafafa;
+  background-color: #e2e6db;
   border-left: 3px solid;
 }
 
-/* side nav bar text */
 ul.side-nav.fixed.table-of-contents li:not(.logo) a span, ul#slide-out li:not(.logo) a span {
-  color: #A3BBAD !important;
+  color: #333 !important;
 }
 
 li.logo span {
@@ -305,10 +308,12 @@ h3 {
   text-transform: uppercase;
 }
 
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
 .section {
   padding-bottom: 30px;
   padding-top: 0;
   position: relative;
+  font-family: Libre Baskerville,serif !important;
 }
 
 .full-height {
@@ -323,12 +328,12 @@ h3 {
 } */
 
 #intro.section {
-  background: #8EAD7C repeat;
+  background: #e2e6db repeat;
   position: relative;
 }
 
 #intro.section .container {
-  color: #8ead7c;
+  color: #313232;
   font-weight: 200;
   left: 0;
   position: absolute;
@@ -347,7 +352,7 @@ h3 {
   /* font-weight: 400; */
   line-height: 150%;
   /* padding: 0 0px; */
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, .25);
 }
 
 #intro.section .underline {
@@ -359,7 +364,7 @@ h3 {
 }
 
 .overlay {
-  background-color: rgba(0, 0, 0, 0.4);
+  /*  background-color: rgba(0, 0, 0, 0.4); */
   height: 100%;
   left: 0;
   position: absolute;
@@ -382,6 +387,20 @@ h3 {
   position: absolute;
   right: 38px;
   top: 35px;
+}
+
+.subrole {
+  position: relative;
+  border-top: 1px solid #ddd;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  top: 35px;
+}
+
+.new-role {
+  font-size: 1.25rem;
+  position: absolute;
+  right: 38px;
 }
 
 .card li a {
@@ -479,6 +498,21 @@ a.hoverline:hover {
   border-bottom: 3px solid #004d40 !important;
 }
 
+.projects-top {
+  position: absolute !important;
+  top: 30 !important;
+  right: 5 !important;
+  height: 65% !important;
+  overflow-y: auto !important;
+}
+
+.projects-bottom {
+  position: absolute !important;
+  top: 75% !important;
+  bottom: 0 !important;
+}
+
+
 #skills .card.large {
   height: 360px;
 }
@@ -549,26 +583,29 @@ small {
   color: #666 !important;
 }
 
-/* main .teal-text */
+.white-text {
+  color: #fbf2eb !important;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
+.name-text {
+  font-family: Libre Baskerville,serif !important;
+  font-weight: 400;
+  color: #224229 !important;
+}
+
+.intro-text {
+  color:#828787;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0) !important;
+}
 
 .teal-text {
-  color: #6A958C !important;
+  color: #224229 !important;
 }
-
-/* .teal-text {
-  color: #0b5e86 !important;
-} */
-
-/* .teal */
 
 .teal {
-  background-color: #6A958C !important;
+  background-color: #224229 !important;
 }
-
-/* .teal {
-  background-color: #00695c !important;
-} */
-
 
 @media (min-width: 1200px) {
   #experience .container {
@@ -601,12 +638,12 @@ small {
     width: 100%;
   }
   nav {
-    background: #fff;
+    background: #fbf2eb;
     height: 64px;
     position: absolute;
   }
   nav a.button-collapse, nav a.button-collapse i {
-    color: #6A958C;
+    color: #009688;
     height: 56px;
     line-height: 56px;
   }
@@ -677,8 +714,12 @@ small {
   #experience span.card-title a {
     margin: 0;
   }
-  i.mdi-navigation-close.right {
+  /* i.mdi-navigation-close.right {
     position: relative;
+    bottom: 15px;
+  } */
+  i.mdi-navigation-close.right {
+    position: absolute;
     bottom: 15px;
   }
   #contact a:not(.btn-floating) {
